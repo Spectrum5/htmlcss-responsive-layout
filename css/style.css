@@ -187,6 +187,68 @@ body {
 
 /* FINE STRATEGIC PLANING */
 
+/* INIZIO TESTIMONIALS */
+.testimonials {
+    padding: 70px 0 110px;
+}
+
+.testimonials .container {
+    gap: 40px;
+}
+
+.testimonials .container {
+    text-align: center;
+}
+
+.testimonials .testimonials-title2 {
+    font-size: 2rem;
+    color: var(--purple);
+    font-weight: bold;
+}
+
+.testimonials .testimonials-card {
+    background-color: var(--purple);
+    border-radius: 50px;
+    padding: 2rem 1.5rem;
+    gap: 2rem;
+    justify-content: center;
+    color: #FFF;
+}
+
+.testimonials .testimonials-card__img {
+    justify-content: center;
+}
+
+.testimonials .testimonials-card>* {
+    flex-basis: 100%;
+}
+
+.img-circle {
+    max-width: 200px;
+    aspect-ratio: 1/1;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.testimonials .column {
+    gap: 2rem;
+}
+
+.testimonials .description {
+    line-height: 2rem;
+}
+
+.testimonials .testimonials-description {
+    display: contents;
+}
+
+.testimonials .testimonials-description .card-name {
+    font-weight: bold;
+}
+/* INIZIO TESTIMONIALS */
+
+/* INIZIO BENEFITS */
+
 /***************************************************
     FOOTER
 ****************************************************/
