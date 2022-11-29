@@ -2,6 +2,10 @@
     REGOLE GENERALI
 ****************************************************/
 
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
 :root {
     --blue: #0084FD;
     --light-blue: #B5DDFF;
@@ -20,12 +24,51 @@
     padding: 0 2rem;
 }
 
+.container-medium {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.container-small {
+    max-width: 19rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
 .button {
     background-color: #FFF;
     border-radius: 20px;
     color: black;
     padding: 0.5em 0.8em;
 }
+
+.column {
+    flex-direction: column;
+}
+
+.button-large {
+    padding: 0.5em 3em;
+}
+
+.button-blue {
+    background-color: var(--blue);
+    color: #FFF;
+}
+
+.button-purple {
+    background-color: var(--purple);
+    color: #FFF;
+}
+
+.card {
+    border-radius: 10px;
+    padding: 35px 30px 0;
+    gap: 2rem;
+    height: 100%;
+    line-height: 2rem;
+}
+
 /***************************************************
     HEADER
 ****************************************************/
@@ -55,7 +98,52 @@
 /***************************************************
     MAIN
 ****************************************************/
+/* HERO */
+.hero {
+    padding: 50px 0 100px;
+}
 
+.hero .flex,
+.hero .card-head {
+    gap: 20px;
+}
+
+.hero .card {
+    background-color: var(--light-blue);
+}
+
+.hero #main-card .card-head {
+    align-items: flex-start;
+}
+
+.hero .card-icon {
+    font-size: 5rem;
+}
+
+.hero .card-icon,
+.hero .card-title {
+    color: var(--blue);
+}
+
+.hero .card:not([id="main-card"]) {
+    align-items: center;
+    text-align: center;
+    padding-bottom: 35px;
+}
+
+.hero #main-card .card-img {
+    justify-content: center;
+}
+
+.hero #main-card .card-img img {
+    display: block;
+    width: 200px;
+}
+/* FINE HERO */
+
+/* STRATEGIC PLANING */
+
+/* FINE STRATEGIC PLANING */
 
 /***************************************************
     FOOTER
