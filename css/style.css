@@ -48,7 +48,7 @@ body {
 }
 
 .button-large {
-    padding: 0.5em 3em;
+    padding: 0.3em 3em;
 }
 
 .button-blue {
@@ -67,6 +67,10 @@ body {
     gap: 2rem;
     height: 100%;
     line-height: 2rem;
+}
+
+section:nth-child(even) {
+    background-color: var(--purple);
 }
 
 /***************************************************
@@ -145,7 +149,6 @@ body {
 
 .strategic {
     padding: 70px 0 60px;
-    background-color: var(--purple);
 }
 
 .strategic .flex {
@@ -248,6 +251,37 @@ body {
 /* INIZIO TESTIMONIALS */
 
 /* INIZIO BENEFITS */
+.benefits .card {
+    background-color: #FFF;
+    padding: 2rem;
+    flex-basis: 100%;
+    align-items: flex-start;
+}
+
+.benefits .flex {
+    gap: 2rem;
+}
+
+.benefits .benefits-title {
+    color: #FFF;
+    text-align: center;
+    margin-bottom: 4.5rem;
+}
+
+.card-title,
+.card-sub-title {
+    color: var(--purple);
+}
+
+.benefits .benefits-title,
+.card-title {
+    font-size: 2.5rem;
+}
+
+.card-sub-title {
+    font-size: 1.4rem;
+}
+
 
 /***************************************************
     FOOTER
