@@ -3,15 +3,55 @@
 ****************************************************/
 
 :root {
-
+    --blue: #0084FD;
+    --light-blue: #B5DDFF;
+    --purple: #9792E4;
+    --dark-grey: #333333;
 }
 
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
 
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.button {
+    background-color: #FFF;
+    border-radius: 20px;
+    color: black;
+    padding: 0.5em 0.8em;
+}
 /***************************************************
     HEADER
 ****************************************************/
+.main-header {
+    padding: 1rem 0;
+    background-color: var(--blue);
+    color: #FFF;
+}
 
+.main-header .container.flex {
+    justify-content: space-between;
+    align-items: center;
+}
 
+.nav-list .flex {
+    gap: 30px;
+}
+
+.main-header .nav-bars {
+    cursor: pointer;
+    font-size: 1.75rem;
+}
+
+.main-header .nav-list {
+    display: none;
+}
 /***************************************************
     MAIN
 ****************************************************/
@@ -25,3 +65,9 @@
 /***************************************************
     MEDIA QUERY
 ****************************************************/
+/* Versione Mobile */
+
+/* Versione Tablet*/
+
+/* Versione Desktop  */
+
