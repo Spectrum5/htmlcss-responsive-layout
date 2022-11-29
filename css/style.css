@@ -303,7 +303,7 @@ section:nth-child(even) {
 }
 
 .about-us .about-head {
-    gap: 4rem;
+    gap: 3rem;
     line-height: 2rem;
 }
 
