@@ -282,6 +282,36 @@ section:nth-child(even) {
     font-size: 1.4rem;
 }
 
+.benefits {
+    padding: 4rem 0 4rem;
+}
+
+/* FINE BENEFITS */
+
+/* INIZIO ABOUT US */
+.about-us {
+    padding: 70px 0 70px;
+}
+
+.about-us>* {
+    flex-basis: 100%;
+    align-items: flex-start;
+}
+
+.about-us {
+    gap: 3.5rem;
+}
+
+.about-us .about-head {
+    gap: 4rem;
+    line-height: 2rem;
+}
+
+.about-us .about-body {
+    gap: 1.5rem;
+    margin-top: 20px;
+}
+/* FINE ABOUT US */
 
 /***************************************************
     FOOTER
