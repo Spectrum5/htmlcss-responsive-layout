@@ -317,6 +317,19 @@ section:nth-child(even) {
     gap: 1.5rem;
     margin-top: 20px;
 }
+
+.about-img {
+    position: relative;
+}
+
+.about-absolute {
+    color: var(--purple);
+    font-size: 4rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
 /* FINE ABOUT US */
 
 /* INIZIO GET STARTED */
@@ -536,7 +549,6 @@ section:nth-child(even) {
     }
 
     .strategic .col.flex.strategic-dev {
-        flex-direction: column;
         align-self: flex-end;
     }
 
@@ -551,5 +563,13 @@ section:nth-child(even) {
     .about-us .container {
         padding-right: 5rem;
         padding-left: 5rem;
+    }
+
+    .about-absolute {
+        color: var(--purple);
+        font-size: 4rem;
+        position: absolute;
+        top: 0;
+        right: 0;
     }
 }
